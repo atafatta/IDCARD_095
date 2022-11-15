@@ -5,12 +5,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>text-date-image</title>
+        <title>IDCARD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div style="text-align: center">Masukkan Data Diri Anda</div>
+        <div id="header" style="border: 1px solid; margin: 10 auto; padding: 10; text-align: center;" >
+            <h2 style="text-align: center">Masukkan Data Diri Anda</h2>
+        </div>
         <hr>
         <form  action="/getdata" method="POST" enctype="multipart/form-data">
             <table>
@@ -18,7 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <tr>
                     <td width="120">Nama : </td>
                     <td><input type="text" size="30" name="nama"</td>
-                </tr><br>
+                </tr>
                 
                 <tr>
                     <td>Tanggal Lahir : </td>
