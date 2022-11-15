@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>text-date-image</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="text-align: center">Masukkan Data Diri Anda</div>
+        <hr>
+        <form  action="/getdata" method="POST" enctype="multipart/form-data">
+            <table>
+                
+                <tr>
+                    <td width="120">Nama : </td>
+                    <td><input type="text" size="30" name="nama"</td>
+                </tr><br>
+                
+                <tr>
+                    <td>Tanggal Lahir : </td>
+                    <td><input type="date" name="tgl"</td>
+                </tr>
+                
+                <tr>
+                    <td>Masukkan Foto : </td>
+                    <td><input type="file" name="image"</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="Simpan">
+                        <input type="reset" name="Reset">
+                    </td> 
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
